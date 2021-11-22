@@ -25,7 +25,7 @@ export class ListComponent implements OnInit {
   ngOnInit(): void {
   }
 saveList(){
-  
+  alert("List Added Successfully")
   let data = {
 
     'token': '123',
